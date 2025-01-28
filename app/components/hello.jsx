@@ -1,9 +1,7 @@
 "use client"
-
 import React from 'react'
 
-const Hello = () => {
-    console.log("i am a client component")
+const hello = () => {
   return (
     <div>
         <h1>hello</h1>
@@ -11,4 +9,4 @@ const Hello = () => {
   )
 }
 
-export default Hello
+export default hello;
